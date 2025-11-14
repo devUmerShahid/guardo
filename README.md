@@ -1,17 +1,69 @@
-# React + Vite
+# Guardo - Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Demo
 
-Currently, two official plugins are available:
+👉 https://guardo-eight.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Guardo is a secure and user-friendly password manager built with **React.js**, **Vite**, and **Firebase**. It allows users to store, edit, delete, and manage passwords efficiently with strong security and smooth UI/UX.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add, edit, and delete passwords
+- View passwords securely
+- Password strength indicator
+- Responsive design for mobile and desktop
+- User authentication (Login, Register, Reset Password)
+- Pagination for password lists
+- Firebase Firestore backend
+- Secure handling of environment variables
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# guardo
+- React.js with Vite
+- TypeScript (optional, if used)
+- Firebase Auth & Firestore
+- Tailwind CSS
+- React Icons
+
+## Installation
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/devUmerShahid/guardo.git
+cd guardo
+
+2. **Install dependencies**
+
+npm install
+# or
+yarn install
+
+3. **Set up Firebase**
+
+Create a Firebase project at Firebase Console
+
+Enable Email/Password Authentication and Firestore Database
+
+Create a .env file in the root directory with the following variables:
+-VITE_FIREBASE_API_KEY=your_api_key
+-VITE_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
+-VITE_FIREBASE_PROJECT_ID=your_project_id
+-VITE_FIREBASE_STORAGE_BUCKET=your_project_id.appspot.com
+-VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+-VITE_FIREBASE_APP_ID=your_app_id
+
+Note: Do NOT commit .env to GitHub. Use .gitignore to exclude it.
+
+4.**Run the project locally**
+
+npm run dev
+# or
+yarn dev
+
+Open http://localhost:5173 in your browser.
+
+License
+
+MIT License © 2025
