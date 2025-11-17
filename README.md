@@ -29,18 +29,18 @@ Guardo is a secure and user-friendly password manager built with **React.js**, *
 
 Follow these steps to run the project locally:
 
-1. **Clone the repository**
+☑ **Clone the repository**
 ```bash
 git clone https://github.com/devUmerShahid/guardo.git
 cd guardo
 
-2. **Install dependencies**
+☑ **Install dependencies**
 
 npm install
 # or
 yarn install
 
-3. **Set up Firebase**
+☑ **Set up Firebase**
 
 Create a Firebase project at Firebase Console
 
@@ -56,7 +56,7 @@ Create a .env file in the root directory with the following variables:
 
 Note: Do NOT commit .env to GitHub. Use .gitignore to exclude it.
 
-4.**Run the project locally**
+☑**Run the project locally**
 
 npm run dev
 # or
